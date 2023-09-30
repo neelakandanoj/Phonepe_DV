@@ -39,21 +39,21 @@ selected = option_menu(None,
 # ABOUT TAB
 if selected == "About":
     col1, col2, = st.columns(2)
-    col1.image(Image.open("E:\Capstone2\Phonepe_Data_Visualization\Phonepay.png"), width=600)
+    col1.image(Image.open("Phonepay.png"), width=600)
     with col1:
         st.subheader(
             "PhonePe  is an Indian digital payments and financial technology company headquartered in Bengaluru, Karnataka, India. PhonePe was founded in December 2015, by Sameer Nigam, Rahul Chari and Burzin Engineer. The PhonePe app, based on the Unified Payments Interface (UPI), went live in August 2016. It is owned by Flipkart, a subsidiary of Walmart.")
         st.markdown("[DOWNLOAD APP](https://www.phonepe.com/app-download/)")
 
     with col2:
-        st.video("E:/Capstone2/Introducing PhonePe Pulse.mp4")
+        st.video("Introducing PhonePe Pulse.mp4")
 
 
 # HOME TAB
 if selected == "Home":
     col1,col2 = st.columns(2)
     with col1:
-        st.image(Image.open("E:\Capstone2\Phonepe_Data_Visualization\Phonepay.png"), width=600)
+        st.image(Image.open("Phonepay.png"), width=600)
     with col2:
         st.title(':violet[PHONEPE PULSE DATA VISUALISATION]')
         st.subheader(':violet[Phonepe Pulse]:')
