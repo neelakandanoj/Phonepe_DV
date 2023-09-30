@@ -1,0 +1,8 @@
+pandas
+sqlite3 
+sqlalchemy
+numpy 
+sqlite3 
+streamlit
+plotly.express
+streamlit_option_menu 
